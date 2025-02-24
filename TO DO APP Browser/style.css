@@ -1,0 +1,61 @@
+
+.heading{
+text-align: center;
+font-family: cursive;
+}
+
+.enterTask{
+    
+    display: flex;
+    justify-content: center;
+    padding:20px;
+
+}
+
+.list{
+
+    background-color: aqua;
+    border-radius: 40px;
+    border: 2px solid black;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+li{
+    word-wrap: break-word;
+    padding: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.delete{
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: end;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.png);
+    background-size: cover;
+}
+
+.footer {
+    background-color: #000000;
+    color: #fff4f4;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
